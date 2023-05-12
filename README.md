@@ -2,28 +2,32 @@
 
 ## Assignment 1 :: Data Analytics in `Python`
 
-Steps to Creating Random Users: ->
+Steps => 1 :: Collecting Random User's data in the csv file : ->
 
-1) Import required modules: `CSV` `time` `request`
-2) **GET random data** of an user using get_random_user function using open source **mock restapi** 
-2) Create `User.csv` file after than auto write data get random user data
-    id, FirstName, LastName, Username, Email, Avatar, Gender, DoB, Address
-3) Each GET request must have an interval time of `1 second`
+1) Get the `main.py` file run.
+2) It will create a `Users.csv` file and the **data of one by one user** in that file will be **added**.
+3) **This process will take some time**.
+4) To `de-activate` that process, click `CTRL+C` at the terminal so that the process of **collecting random users' data stop**.
+
 
 ## A) Sorting Method ::
 
-Steps to do after Creating Randome Users: ->
+Steps => 2 :: Users data have to sorting csv file into the perticular field : ->
 
-1) Import required modules: `CSV`
-2) Read data from the **users.csv** file and store in a **list**
-3) Define a functions to sort the users by specific field ex., `FirstName`
-4) Call the functions to sort the users and write the sorted data to new file
+1) Get the `sort.py` file run.
+2) This will be **read** the data of the `users.csv` file and do the perticular given **field wise sorting** and **add** this data to the new `user-sorted.csv` file by creating it.
+3) After completing this process, you will be able to see the particular given field wise data.
+4) That is **given** data in the `user-sorted.csv` file.
+
+`ex.`, already given field is `FirstName` so users.csv file data has to sorting into the **first name wise (A-Z order)**.
 
 ## B) Searching Method ::
 
-Steps to do after Creating Randome Users: ->
+Steps => 3 :: Users data have to `searching` in the csv file into the `user i'd` or `username` : ->
 
-1) Import required modules: `CSV`
-2) Function to search for a user by their id or username
-3) Prompt the user to input an id or username to search
-4) Call the Search_user function and print the details of the user
+1) Get the `search.py` file run.
+2) This will be **read** the data of the `users.csv` file.
+3) We have given in the input for the `i'd` or `username`.
+4) If `user data` have to `present` so, `user details` print `otherwise` Given `user not found` print.
+
+`ex.,` input id = `4567` ==> they id's user have to `present` so **print** thet `id's details`.
